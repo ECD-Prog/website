@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Modellflugclub</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="index_de.html">Startseite</a></li>
+            <li><a href="about_de.html">Über</a></li>
+            <li><a href="events_de.html">Veranstaltungen</a></li>
+            <li><a href="contact_de.html">Kontakt</a></li>
+            <li><a href="login_de.html">Anmelden</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="contact-info">
+            <h2>Kontaktinformationen</h2>
+            <p>Wenn Sie Fragen haben oder Mitglied werden möchten, verwenden Sie bitte die unten stehenden Kontaktinformationen oder füllen Sie das Kontaktformular aus.</p>
+            <p>Email: info@modellflugclub.com</p>
+            <p>Telefon: (123) 456-7890</p>
+            <p>Adresse: Modellflugstraße 123, Anytown, Deutschland</p>
+        </section>
+        <section id="contact-form">
+            <h2>Kontaktformular</h2>
+            <form action="submit_contact_form.php" method="post">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+                <label for="message">Nachricht:</label>
+                <textarea id="message" name="message" required></textarea>
+                <button type="submit">Absenden</button>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2023 Modellflugclub. Alle Rechte vorbehalten.</p>
+    </footer>
+</body>
+</html>
