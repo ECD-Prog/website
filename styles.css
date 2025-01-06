@@ -1,0 +1,9 @@
+body {
+    background-color: blue; /* P4507 */
+    color: yellow; /* Pfdb4 */
+}
+
+header, nav, main, footer {
+    background-color: blue; /* P2cc9 */
+    color: yellow; /* Pe171 */
+}
